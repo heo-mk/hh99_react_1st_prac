@@ -62,7 +62,7 @@ const Todo = (props) => {
 			<TodoBox>
 				<span>할일</span>
 				<input type="text" ref={todo} placeholder="오늘의 할일은?" />
-			</TodoBox>
+			</TodoBox> 
 			<BtnBox>
 				<button
 					onClick={() => {

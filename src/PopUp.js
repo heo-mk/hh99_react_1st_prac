@@ -11,7 +11,7 @@ const PopUp = (props) => {
     
     return (
         // 모달이 열릴때 openPopUp 함수가 생성된다.
-        <div className={ open ? 'openPopUp popup' : 'popup' }>  
+        <div className={ open ? 'openModal modal' : 'modal' }>  
             { open ? (  
                 <section>
                     <header>

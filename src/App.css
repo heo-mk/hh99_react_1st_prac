@@ -1,5 +1,8 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
 .App {
   text-align: center;
+  font-family: 'Jeju Gothic', sans-serif;
 }
 
 .App-logo {

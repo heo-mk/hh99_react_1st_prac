@@ -1,4 +1,5 @@
 // 부모 컴포넌트 Calendar의 자식 컴포넌트인 Date 컴포넌트
+import "./Date.css"
 import React from "react"; 
 import styled from 'styled-components';
 import ListView from './ListView'  // 이 Date 노드의 자식 컴포넌트
@@ -13,15 +14,15 @@ const Date = (props) => {
     let date = props.date.split('.');
     let todoList = useSelector(state => state.todo.todos);  // useSelector : 함수형 컴포넌트의 훅.
 
-    console.log(todoList)
-    // slicing으로 뽑기
+    // console.log(todoList)
+    // slicing으로
     let year = date[0];
     let month = date[1];
     let date_ = date[2];
     
     //오늘의 todolist
     const todayTodos = todoList.filter((todo) => {
-        return todo.year === year && todo.month === month && todo.day === date_})
+        return todo.year === year && todo.month === month && todo.day ===date_})
     
     let arrListView;
     if(todayTodos) {
@@ -62,13 +63,13 @@ const Date = (props) => {
 export default Date;
 
 const Day = styled.div`
-    text-align:left;
+    text-align:center;
     width:30%;
     min-height: 90px; 
 `;
 const Yoil = styled.span`
     margin:5px;
-    font-size: 11px;
+    font-size: 20px;
     padding:3px;
     position: relative;
     top:5px;

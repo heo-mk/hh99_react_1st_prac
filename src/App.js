@@ -61,11 +61,11 @@ class App extends React.Component {
 export default connect(mapStateTopProps, mapDispatchToProps)(withRouter(App));
 
 const Container = styled.div`
-  width:65vw;
+  width:80vw;
   min-height: 430px;
-  background-color: #f8a5d7;
-  margin:80px auto;
-  border-radius: 30px;
+  background-color: white;
+  margin:70px auto;
+  border-radius: 50px;
   text-align:center;
   position: relative;
   padding:15px 15px 20px 15px;
@@ -83,7 +83,7 @@ const Container = styled.div`
 `;
 const Header = styled.div`
   & h2{
-    font-family: "KOTRA_BOLD-Bold";
+    /* font-family: 'Jeju Hallasan'; */
     font-size: 26px;
     
     @media (max-width:767px) {

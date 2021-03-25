@@ -13,7 +13,7 @@ import Date from "./Date";
 
 const Calendar = (props) => {
 
-    const [btnChange, setBtnChange] = useState(true);
+    const [btnChange, setBtnChange] = useState(false);
     const [getMoment, setMoment] = useState(moment());
 
     const changeList = () => {
@@ -80,9 +80,9 @@ const Calendar = (props) => {
 
         <CalendarWrap>
             <TopWrap>
-                <MonthBtn onClick={() => {setMoment(getMoment.clone().subtract(1, 'month')) }} >이전달</MonthBtn>
+                <MonthBtn onClick={() => {setMoment(getMoment.clone().subtract(1, 'month')) }}><span font-size="30px">이전달</span></MonthBtn>
                 <Month>{today.format(' YYYY년 MM월 ')}</Month>
-                <MonthBtn onClick={() => {setMoment(getMoment.clone().add(1, 'month')) }} >다음달</MonthBtn>
+                <MonthBtn onClick={() => {setMoment(getMoment.clone().add(1, 'month')) }}><span font-size="30px">다음달</span></MonthBtn>
             </TopWrap>
             <WeekWrap>
                 <Weeks>
@@ -99,7 +99,7 @@ const Calendar = (props) => {
                 {calendarArr()}
             </DayWrap>
             <MoveBtnWrap>
-                <Btns className="complete-btn" onClick ={() => {
+                <Btns className="complete-btn" font-size="20" onClick ={() => {
                     if(btnChange === false) {
                         // dispatch(completeList())
                         // setBtnChange(true)
@@ -111,7 +111,7 @@ const Calendar = (props) => {
                 }}> 
                 {btnChange === false ? "완료일정" : "전체일정"}
                 </Btns>
-                <Btns onClick={() => {
+                <Btns font-size="20" onClick={() => {
                     props.history.push("/todo");
                 }}>+</Btns>
             </MoveBtnWrap>    
@@ -167,11 +167,11 @@ const Weeks = styled.div`
     }
     @media (max-width:767px) {
 
-    font-size: 13px;
+    font-size: 20px;
     }
 `;
 const Week = styled.div`
-    font-family: "YESGothic-Bold";
+    font-family: "";
 `;
 const DayWrap = styled.div`
     display: grid;
@@ -194,8 +194,8 @@ const MoveBtnWrap = styled.div`
     }
 `;
 const Btns = styled.button`
-    width:60px;
-    height: 60px;
+    width:100px;
+    height: 100px;
     border-radius: 100%;
     cursor: pointer;
     outline: none;
