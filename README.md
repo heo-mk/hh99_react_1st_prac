@@ -1,6 +1,6 @@
 # React로 만드는 나만의 달력
 
-<img width="500" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FArdH2%2Fbtq1ca2veV3%2Fw05lNNJzfpjYzb61lGka61%2Fimg.png">
+![KakaoTalk_20210531_031935632](https://user-images.githubusercontent.com/79818840/120118881-b096dc80-c1cf-11eb-98f1-248c9655d713.jpg)
 
 **페이지 링크:** [REACT_Calendar](https://react-calendar-f5663.web.app/)
 <br/>
