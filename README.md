@@ -17,6 +17,9 @@
 - 날짜 라이브러리인 moment.js를 이용해서 서비스 구현
 - 완성후, 빌드한 파일을 firebase로 배포
 
+## 구현에 사용한 개념
+1\. **함수형** 컴포넌트만 사용(클래스 형 컴포넌트 ❌)
+
 ## 구현 결과물
 ![dd](https://user-images.githubusercontent.com/79818840/120119090-c1941d80-c1d0-11eb-8bd4-15494aa485fb.JPG)
 ![dd2](https://user-images.githubusercontent.com/79818840/120119091-c35de100-c1d0-11eb-85f7-06c67a2417b0.JPG)
