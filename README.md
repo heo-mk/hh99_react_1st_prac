@@ -49,6 +49,6 @@
   - 스케쥴을 입력하면 달력의 그 날짜에 스케쥴이 뜬다.
 ![dd2](https://user-images.githubusercontent.com/79818840/120119091-c35de100-c1d0-11eb-85f7-06c67a2417b0.JPG)
 
-3\. 
+3\. **모달 창 띄우기(그날의 케쥴 정보)(삭제하기 & 완료하기)**
 ![hfh](https://user-images.githubusercontent.com/79818840/120119122-e7b9bd80-c1d0-11eb-9b6b-8c7f84157346.JPG)
 
