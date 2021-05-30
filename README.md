@@ -18,5 +18,6 @@
 - 완성후, 빌드한 파일을 firebase로 배포
 
 ## 구현 결과물
-![dd2](https://user-images.githubusercontent.com/79818840/120119074-acb78a00-c1d0-11eb-8bd7-0f08fd90210d.JPG)
-![dd2](https://user-images.githubusercontent.com/79818840/120119079-b04b1100-c1d0-11eb-8d5e-065c20aa17b8.JPG)
+![dd](https://user-images.githubusercontent.com/79818840/120119090-c1941d80-c1d0-11eb-8bd4-15494aa485fb.JPG)
+![dd2](https://user-images.githubusercontent.com/79818840/120119091-c35de100-c1d0-11eb-85f7-06c67a2417b0.JPG)
+
