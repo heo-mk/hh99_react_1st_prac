@@ -32,8 +32,12 @@
 5\. **Redux** 를 사용해서 정보를 저장하고 불러 와서 사용
   - Redux store에 저장된 데이터를 가져올 때 쓰는 React-hook이 useSelector
 
-6\. **Firebase**(서버리스)를 사용해서 data를 보관할 수 있게 했다. 
+6\. **Firebase**(서버리스)를 사용해서 data를 보관하고 불러와서 사용
+  - firestore의 "todo" collection에 데이터 저장/소환
 
+7\. **middleware**를 사용해서 Fireabase와 Redux를 연결.
+
+8\. **Firebase**로 이번  **배포** 
 
 
 ## 구현 결과물
