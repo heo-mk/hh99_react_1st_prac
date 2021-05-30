@@ -20,8 +20,19 @@
 ## 구현에 사용한 개념
 1\. **함수형** 컴포넌트만 사용(클래스 형 컴포넌트 ❌)
   - 함수형이 더 간단하고, React-hooks를 사용해 state를 다룰 수 있어서 편리하다.
-2\. **React hook** 사용 (useState(), useDispatch(), useEffect(), useRef(), useSelect()) 
 
+2\. **React hook** 사용 (useState(), useDispatch(), useEffect(), useRef(), useSelector()) 
+
+3\. **styled-components**를 사용
+  - className 선언 불필요
+  - css 속성들을 보다 편하게 관리할 수 있다.
+
+4\. **Props**로 자식컴포넌트에게 data를 전달해 주기
+
+5\. **Redux** 를 사용해서 정보를 저장하고 불러 와서 사용
+  - Redux store에 저장된 데이터를 가져올 때 쓰는 React-hook이 useSelector
+
+6\. **Firebase**(서버리스)를 사용해서 data를 보관할 수 있게 했다. 
 
 
 
