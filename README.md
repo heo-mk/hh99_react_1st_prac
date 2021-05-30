@@ -41,7 +41,14 @@
 
 
 ## 구현 결과물
+1\. 완성된 달력
 ![dd](https://user-images.githubusercontent.com/79818840/120119090-c1941d80-c1d0-11eb-8bd4-15494aa485fb.JPG)
+
+2\. **새로운 스케쥴 업로드 하고 추가하기**
+  - 달력의 메인페이지에서 + 버튼을 누르면 이곳으로 이동.
+  - 스케쥴을 입력하면 달력의 그 날짜에 스케쥴이 뜬다.
 ![dd2](https://user-images.githubusercontent.com/79818840/120119091-c35de100-c1d0-11eb-85f7-06c67a2417b0.JPG)
+
+3\. 
 ![hfh](https://user-images.githubusercontent.com/79818840/120119122-e7b9bd80-c1d0-11eb-9b6b-8c7f84157346.JPG)
 
