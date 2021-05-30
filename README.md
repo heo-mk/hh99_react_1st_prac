@@ -37,6 +37,12 @@
 
 7\. **middleware**를 사용해서 Fireabase와 Redux를 연결.
 
+8\. 웹페이지를 반응형으로 만들기.
+  - PC, 테블릿에서 사용할 수 있게 미디어 쿼리를 사용
+  - PC : 화면폭이 1023px보다 큰 경우를 기준으로 width:80vw, min-height: 430px; 으로 설정
+  - 태블릿 : 화면폭이 768px - 1023px 사이일 때 width:80vw, min-height: 430px; 으로 설정
+  - 폰 : 화면폭이 768px 이하일 때 width:88vw, min-height: 400px로 설정
+
 8\. **Firebase**로 이번  **배포** 
 
 
@@ -54,5 +60,5 @@
   - 그러면 지도상에 빨간색 동그라미가 스케쥴 옆에 뜬다.
 ![dgfh](https://user-images.githubusercontent.com/79818840/120119518-0325c800-c1d3-11eb-841c-f35b8120ae2f.JPG)
   
-  - 완료한 스케쥴의 경우 삭제버튼만 나오게 . 
+  - 완료한 스케쥴의 경우 삭제버튼만 나오게 한다. 
 ![hfh](https://user-images.githubusercontent.com/79818840/120119122-e7b9bd80-c1d0-11eb-9b6b-8c7f84157346.JPG)
