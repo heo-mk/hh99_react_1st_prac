@@ -19,6 +19,11 @@
 
 ## 구현에 사용한 개념
 1\. **함수형** 컴포넌트만 사용(클래스 형 컴포넌트 ❌)
+  - 함수형이 더 간단하고, React-hooks를 사용해 state를 다룰 수 있어서 편리하다.
+2\. **React hook** 사용 (useState(), useDispatch(), useEffect(), useRef(), useSelect()) 
+
+
+
 
 ## 구현 결과물
 ![dd](https://user-images.githubusercontent.com/79818840/120119090-c1941d80-c1d0-11eb-8bd4-15494aa485fb.JPG)
