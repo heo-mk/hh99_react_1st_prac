@@ -50,5 +50,9 @@
 ![dd2](https://user-images.githubusercontent.com/79818840/120119091-c35de100-c1d0-11eb-85f7-06c67a2417b0.JPG)
 
 3\. **모달 창 띄우기(그날의 케쥴 정보)(삭제하기 & 완료하기)**
+  - 완료했다면 체크하기 버튼을 눌러 완료로 설정할 수 있다.
+  - 그러면 지도상에 빨간색 동그라미가 스케쥴 옆에 뜬다.
+![dgfh](https://user-images.githubusercontent.com/79818840/120119518-0325c800-c1d3-11eb-841c-f35b8120ae2f.JPG)
+  
+  - 완료한 스케쥴의 경우 삭제버튼만 나오게 . 
 ![hfh](https://user-images.githubusercontent.com/79818840/120119122-e7b9bd80-c1d0-11eb-9b6b-8c7f84157346.JPG)
-
